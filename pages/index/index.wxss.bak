@@ -1,0 +1,56 @@
+/* pages/index/index.wxss */
+.container{
+  display: flex;
+  flex-direction: row; 
+  /* 设置控件的主轴方向
+    row：从左往右排列
+    row-reverse：从右往左排列
+    column：从上到下排列
+    column-reverse：从下到上排列
+  */
+  justify-content: center;
+  /* 设置对齐方式
+    flex-start：左对齐
+    flex-end：右对齐
+    center：居中对齐
+    space-between：两端对齐
+    space-around：环绕对齐
+  */
+  background: pink;
+  height: 200px;
+  align-items: flex-start;
+  /* 垂直对齐方式
+    flex-start：顶端对齐
+    flex-end：底端对齐
+    center：垂直居中对齐
+    stretch：会改变高度，到要将height 改为 auto  
+  */
+}
+.s1{
+  width: 50px;
+  height: 100px;
+  background-color: red;
+  /*
+    flex-grow: 1：自适应宽度，占满一行
+  */
+  font-size: 30px
+}
+
+.s2{
+  width: 50px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.s3{
+  width: 50px;
+  height: 100px;
+  background-color: blue;
+}
+
+
+.s4{
+  width: 50px;
+  height: 100px;
+  background-color: orange; 
+}

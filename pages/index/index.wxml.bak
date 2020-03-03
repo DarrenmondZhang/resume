@@ -1,0 +1,7 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="s1">A</view>
+  <view class="s2">A</view>
+  <view class="s3">A</view>
+  <view class="s4">A</view>
+</view>
